@@ -1,6 +1,6 @@
 # Modify the template on a Spreadsheet UI on WPF app
 
-In this section, you’ll add a capability to modify the template Excel file for Shipping List on WPF app by using XamSpreadsheed control and Excel Engine.
+In this section, you’ll add a capability to modify the Excel template for Shipping List on WPF app by using XamSpreadsheed control and Excel Engine.
 
 ## Steps
 1. [Install Control Configulator](02-01-Install-Control-Configulator.md)

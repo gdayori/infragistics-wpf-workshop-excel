@@ -74,7 +74,7 @@ Open MainWindow.xaml and check what's in the xaml.
 This xaml has
  - MainWindowViewModel bound to this view
  - Grid Column/Row definitions to split and layout the screen
- - Two buttons linking to commands defined in the ViewModel
+ - Two buttons bound to commands defined in the ViewModel
 
 ## Add XamDataGrid in MainWindow.xaml
 
