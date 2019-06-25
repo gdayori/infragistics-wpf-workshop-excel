@@ -26,26 +26,24 @@ Note that there's src/02-After folder which contains the project completing all 
 
 ## All steps
 
-<!-- 1. [Section 1 - Get started with Infragistics grid control](docs/01-Use-Infragistics-Grid-control/01-00-Overview-of-Section1.md)
+1. [Section 1 - Get started with Infragistics grid control](docs/01-Use-Infragistics-Grid-control/01-00-Overview-of-Section1.md)
     1. [Get started with XamDataGrid](docs/01-Use-Infragistics-Grid-control/01-01-Get-started-with-XamDataGrid.md)
-    2. [Configure XamDataGrid](docs/01-Use-Infragistics-Grid-control/01-02-Configure-XamDataGrid.md)
-2. [Section 2 - Create a dashboard with-Control Configulator](docs/02-Create-dashboard-with-Control-Configulator/02-00-Overview-of-Section2.md)
-    1. [Install Control Configulator](docs/02-Create-dashboard-with-Control-Configulator/02-01-Install-Control-Configulator.md)
-    2. [Layout screen with XamTileManager](docs/02-Create-dashboard-with-Control-Configulator/02-02-Layout-screen-with-XamTileManager.md)
-    3. [Configure PieChart](docs/02-Create-dashboard-with-Control-Configulator/02-03-Configure-PieChart.md)
-    4. [Configure BulletGraph](docs/02-Create-dashboard-with-Control-Configulator/02-04-Configure-BulletGraph.md)
-    5. [Configure Grid](docs/02-Create-dashboard-with-Control-Configulator/02-05-Configure-Grid.md)
-    6. [Configure CategoryChart](docs/02-Create-dashboard-with-Control-Configulator/02-06-Configure-CategoryChart.md)
-3. [Section 3 - Create Self-BI UI with Pivot controls](docs/03-Create-Self-BI-UI-with-Pivot-controls/03-00-Overview-of-Section3.md)
-    1. [Use FlatDataSource](docs/03-Create-Self-BI-UI-with-Pivot-controls/03-01-Use-FlatDataSource.md)
-    2. [Use Pivot Controls](docs/03-Create-Self-BI-UI-with-Pivot-controls/03-02-Use-Pivot-Controls.md) -->
+    2. [Define columns](docs/01-Use-Infragistics-Grid-control/01-02-Define-Columns.md)
+    3. [Configure XamDataGrid](docs/01-Use-Infragistics-Grid-control/01-03-Configure-XamDataGrid.md)
+2. [Section 2 - Reporting with Excel](docs/02-Reporting-with-Excel/02-00-Overview-of-Section2.md)
+    1. [Check Template Excel](docs/02-Reporting-with-Excel/02-01-Check-Template-Excel.md)
+    2. [Load Excel](docs/02-Reporting-with-Excel/02-02-Load-Excel.md)
+    3. [Merge data into Excel](docs/02-Reporting-with-Excel/02-03-Merge-data-into-Excel.md)
+3. [Section 3 - Modify template on Spreadsheet UI](docs/03-Modify-template-on-Spreadsheet/03-00-Overview-of-Section3.md)
+    1. [Load template into XamSpreadsheet](docs/03-Modify-template-on-Spreadsheet/03-01-Load-template-into-XamSpreadsheet.md)
+    2. [Modify template](docs/03-Modify-template-on-Spreadsheet/03-02-Modify-template.md)
 
-## What you create through this workshop.
-Section 1 - Get started with Infragistics grid control
-![](docs/assets/01-02-01.png)
+## What you build through this workshop.
+Section 1 - Use Infragistics grid control
+![](../assets/01-03-01.png)
 
-Section 2 - Create a dashboard with-Control Configulator
-![](docs/assets/02-06-07.png)
+Section 2 - Reporting with Excel
+![](../assets/02-01-01.png)
 
-Section 3 - Create Self-BI UI with Pivot controls
-![](docs/assets/03-02-01.png)
+Section 3 - Modify the Excel template on Spreadsheet control
+![](../assets/03-02-01.png)

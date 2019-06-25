@@ -1,4 +1,4 @@
-# Save the Excel template
+# Modify the Excel template
 
 ## Save the Workbook object to the Excel template
 
@@ -49,8 +49,5 @@ Using Ribbon control with Spreadsheet control makes the app more Office friendly
 
 You can refer the application sample with XamSpreadsheet conrtol and XamRibbon control which is inspired by MS Excel, from below link.
 
-[WPF Application sample](https://www.infragistics.com/resources/sample-applications#wpf)
+[WPF Application samples](https://www.infragistics.com/resources/sample-applications#wpf)
 *Choose "Excel-Inspired UI".
-
-## Next
-[02-03 Configure PieChart](02-03-Configure-PieChart.md)

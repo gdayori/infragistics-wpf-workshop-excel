@@ -5,4 +5,4 @@ Open up the IgWpfWorkshop\Files\TemplateExcel.xlsx and check the layout and cell
 ![](../assets/02-01-01.png)
 
 ## Next
-[02-02 Layout screen with XamTileManager](02-02-Layout-screen-with-XamTileManager.md)
+[02-02 Load Excel](02-02-Load-Excel.md)

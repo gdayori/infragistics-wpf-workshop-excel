@@ -42,4 +42,4 @@ If you want to learn more about field layout on XamDataGrid, check the help topi
 [XamDataGrid Field layouts](https://www.infragistics.com/help/wpf/xamdatapresenter-define-a-field-layout)
 
 ## Next
-[01-03 Configure XamDataGrid.md](01-03-Configure-XamDataGrid.md)
+[01-03 Configure XamDataGrid](01-03-Configure-XamDataGrid.md)
