@@ -23,8 +23,6 @@
         </Grid.RowDefinitions>
 
         <Button Content="Save template" Command="{Binding SaveWorkbook}" Grid.Column="0" Grid.ColumnSpan="2"/>
-        <ig:XamSpreadsheet Grid.ColumnSpan="2" Grid.Row="1" Workbook="{Binding Path=Workbook}"/>
-
-
+        
     </Grid>
 </Window>
