@@ -8,7 +8,6 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using Infragistics.Samples.Data.Models;
 using System.Diagnostics;
-using Infragistics.Documents.Excel;
 
 namespace IgWpfWorkshop.ViewModel
 {
