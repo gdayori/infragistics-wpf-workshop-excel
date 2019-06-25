@@ -40,10 +40,10 @@ Note that there's src/02-After folder which contains the project completing all 
 
 ## What you build through this workshop.
 Section 1 - Use Infragistics grid control
-![](../assets/01-03-01.png)
+![](docs/assets/01-03-01.png)
 
 Section 2 - Reporting with Excel
-![](../assets/02-01-01.png)
+![](docs/assets/02-00-01.png)
 
 Section 3 - Modify the Excel template on Spreadsheet control
-![](../assets/03-02-01.png)
+![](docs/assets/03-02-01.png)

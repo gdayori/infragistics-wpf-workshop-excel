@@ -2,7 +2,7 @@
 
 In this section, you’ll add a capability to export Shipping List as an Excel file, by importing Excel template file and exporting it with sales data, by using Infragistics Excel Engine.
 
-![](../assets/02-01-01.png)
+![](../assets/02-00-01.png)
 
 ## Steps
 1. [Check Template Excel](02-01-Check-Template-Excel.md)
