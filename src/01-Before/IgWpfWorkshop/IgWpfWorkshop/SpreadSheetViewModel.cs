@@ -20,6 +20,7 @@ namespace IgWpfWorkshop.ViewModel
 
         public SpreadsheetViewModel()
         {
+            SaveWorkbook = new SaveWorkbookCommand(this);
         }
 
     }
