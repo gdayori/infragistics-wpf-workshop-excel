@@ -124,4 +124,4 @@ You can learn about Excel Exporter from the below link.
 [Export a DataPresenter Control to Excel](https://www.infragistics.com/help/wpf/xamdatapresenter-export-a-datapresenter-control-to-excel)
 
 ## Next
-[02-03 Configure PieChart](../03-00-Overview-of-Section3.md)
+[02-03 Configure PieChart](../03-Modify-template-on-Spreadsheet/03-00-Overview-of-Section3.md)
