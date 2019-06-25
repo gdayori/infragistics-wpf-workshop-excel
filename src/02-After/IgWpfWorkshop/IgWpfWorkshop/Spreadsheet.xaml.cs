@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace IgWpfWorkshop
 {
     /// <summary>
-    /// Interaction logic for Pivot.xaml
+    /// Interaction logic for Spreadsheet.xaml
     /// </summary>
-    public partial class Pivot : Window
+    public partial class Spreadsheet : Window
     {
-        public Pivot()
+        public Spreadsheet()
         {
             InitializeComponent();
         }

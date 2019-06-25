@@ -20,18 +20,33 @@
             <RowDefinition Height="25px"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Button Content="Dashboard" Command="{Binding OpenDashboard}" Grid.Column="0"/>
-        <Button Content="Pivot" Command="{Binding OpenBiWindow}" Grid.Column="1"/>
-
-        <Custom:XamDataGrid DataSource="{Binding Path=SalesRecords}" Grid.Row="1" Grid.ColumnSpan="3" Grid.RowSpan="1"  >
+        <Button Content="Export Shipping List" Command="{Binding ExportShippingList}" Grid.Column="0"/>
+        <Button Content="Change the layout of Shipping List" Command="{Binding OpenSpreadsheet}" Grid.Column="1"/>
+        <Custom:XamDataGrid Grid.Row="1" Grid.ColumnSpan="2" DataSource="{Binding Path=SalesRecords}">
+            <!-- ↓↓↓ Added ↓↓↓ -->
             <Custom:XamDataGrid.FieldLayoutSettings>
                 <Custom:FieldLayoutSettings FilterUIType="LabelIcons"/>
             </Custom:XamDataGrid.FieldLayoutSettings>
             <Custom:XamDataGrid.FieldSettings>
                 <Custom:FieldSettings AllowRecordFiltering="True" FilterLabelIconDropDownType="MultiSelectExcelStyle" 
-                                      AllowSummaries="True" SummaryDisplayArea="InGroupByRecords" 
-                                      AllowFixing="NearOrFar"/>
+                                AllowSummaries="True" SummaryDisplayArea="InGroupByRecords" 
+                                AllowFixing="NearOrFar"/>
             </Custom:XamDataGrid.FieldSettings>
+            <!-- ↑↑↑ Added ↑↑↑ -->
+            <Custom:XamDataGrid.FieldLayouts>
+                <Custom:FieldLayout Key="SalesData">
+                    <Custom:FieldLayout.Fields>
+                        <Custom:TextField Name="SalesPerson" Label="Sales Person" />
+                        <Custom:DateTimeField Name="Date" Label="Order Date" Format="yyyy-MM-dd" />
+                        <Custom:TextField Name="City" Label="City" />
+                        <Custom:TextField Name="ProductName" Label="Product Name" />
+                        <Custom:NumericField Name="NumberOfUnits" Label="Qty" />
+                        <Custom:CurrencyField Name="UnitPrice" Label="Unit Price" Format="₩ #,###" />
+                        <Custom:CurrencyField Name="AmountOfSale" Label="Amount Of Sale" Format="₩ #,###" />
+                    </Custom:FieldLayout.Fields>
+                </Custom:FieldLayout>
+            </Custom:XamDataGrid.FieldLayouts>
         </Custom:XamDataGrid>
+
     </Grid>
 </Window>

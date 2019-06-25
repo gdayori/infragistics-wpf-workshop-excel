@@ -6,10 +6,10 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Infragistics.Documents.Excel;
 using System.IO;
 using System.Windows.Input;
 using System.Windows;
+using Infragistics.Documents.Excel;
 
 namespace IgWpfWorkshop.ViewModel
 {
@@ -20,8 +20,16 @@ namespace IgWpfWorkshop.ViewModel
 
         public SpreadsheetViewModel()
         {
+            SaveWorkbook = new SaveWorkbookCommand(this);
+            workbook = Workbook.Load("../../Files/TemplateExcel.xlsx");
         }
-
+        
+        // Workbook object to be bound to Spreadsheet control
+        private Workbook workbook;
+        public Workbook Workbook
+        {
+            get { return workbook; }
+        }
     }
 
 
@@ -46,6 +54,7 @@ namespace IgWpfWorkshop.ViewModel
 
         public void Execute(object parameter)
         {
+            _vm.Workbook.Save("../../Files/TemplateExcel.xlsx");
         }
     }
 }

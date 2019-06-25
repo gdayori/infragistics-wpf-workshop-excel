@@ -15,7 +15,7 @@ namespace Infragistics.Samples.Data.Models
             salesTargetThisYear = 100000000;
 
             //Generate Sales data
-            salesData = SalesDataGenerator.GenerateSales(10000);
+            salesData = SalesDataGenerator.GenerateSales(100);
 
             //Get Sales Amount grouped-by ProductName filtered by this year
             var queryForGroupByProduct = from x in salesData
@@ -186,7 +186,7 @@ namespace Infragistics.Samples.Data.Models
         private static readonly Random Random = new Random();
         public static ObservableCollection<Sale> GenerateSales(int numberOfSales)
         {
-            _products = "Apple;Grape;Orage;Banana".Split(';');
+            _products = "Apple;Grape;Orange;Banana".Split(';');
             _sellerNames = "Ellen Adams;Lisa Andrews;William Fox;Walter Harp;Jessica Oxley;Misty Shock;Chris Meyer;Jay Calvin".Split(';');
             _cities = "Tokyo;Shanghai;Beijing;Singapore;New York;Seoul".Split(';');
             //_products = "リンゴ;みかん;ぶどう;梨".Split(';');
@@ -256,7 +256,7 @@ namespace Infragistics.Samples.Data.Models
             Random a = new Random(Random.Next());
             int day = a.Next(1, 28);
             int month = a.Next(1, 13);
-            int year = a.Next(DateTime.Today.Year - 3, DateTime.Today.Year + 1);
+            int year = a.Next(DateTime.Today.Year - 1, DateTime.Today.Year + 1);
             return new DateTime(year, month, day);
         }
         #endregion

@@ -186,7 +186,7 @@ namespace Infragistics.Samples.Data.Models
         private static readonly Random Random = new Random();
         public static ObservableCollection<Sale> GenerateSales(int numberOfSales)
         {
-            _products = "Apple;Grape;Orange;Banana".Split(';');
+            _products = "Apple;Grape;Orage;Banana".Split(';');
             _sellerNames = "Ellen Adams;Lisa Andrews;William Fox;Walter Harp;Jessica Oxley;Misty Shock;Chris Meyer;Jay Calvin".Split(';');
             _cities = "Tokyo;Shanghai;Beijing;Singapore;New York;Seoul".Split(';');
             //_products = "リンゴ;みかん;ぶどう;梨".Split(';');
