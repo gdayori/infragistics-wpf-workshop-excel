@@ -57,4 +57,4 @@ You can learn more about XamTileManager in the help topic.
 [Using the Infragistics Excel Engine](https://www.infragistics.com/help/wpf/excelengine-using-the-infragistics-excel-engine)
 
 ## Next
-[02 03 Merge data into Excel](02-03-Merge-data-into-Excel.md)
+[02-03 Merge data into Excel](02-03-Merge-data-into-Excel.md)

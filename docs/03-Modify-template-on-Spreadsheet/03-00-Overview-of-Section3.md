@@ -10,4 +10,4 @@ In this section, you’ll add a capability to modify the Excel template for Ship
 2. [Modify template](03-02-Modify-template.md)
 
 ## Next
-[03 01 Load template into XamSpreadsheet](03-01-Load-template-into-XamSpreadsheet.md)
+[03-01 Load template into XamSpreadsheet](03-01-Load-template-into-XamSpreadsheet.md)

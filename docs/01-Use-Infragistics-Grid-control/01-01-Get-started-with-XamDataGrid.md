@@ -99,4 +99,4 @@ Run the app and check the result.
 XamDataGrid has a capability of generating column definitions automatically corresponding to the bound data. If you want to configure columns to display in detail you need to set AutoGenerateFields property to False and define all fields. 
 
 ## Next
-[01 02 Define Columns](01-02-Define-Columns.md)
+[01-02 Define Columns](01-02-Define-Columns.md)
