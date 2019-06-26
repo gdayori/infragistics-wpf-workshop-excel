@@ -1,4 +1,4 @@
-# Infragistics WPF hands-on workshop
+# Infragistics WPF hands-on workshop #2
 
 ## About this workshop
 
